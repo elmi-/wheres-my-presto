@@ -1,7 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="container">
+    <h1>PRESTO Travel Map</h1>
+    <p>Visualizing my 2026 transit history across Toronto and the GTA.</p>
+  </div>
 </template>
