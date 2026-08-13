@@ -1,0 +1,50 @@
+{
+  "Weston GO Station Rail": { "lat": 43.7005, "lng": -79.5097 },
+  "Union Station Rail": { "lat": 43.6452, "lng": -79.3806 },
+  "Exhibition GO Station Rail": { "lat": 43.6350, "lng": -79.4187 },
+  "Danforth GO Station Rail": { "lat": 43.6863, "lng": -79.3003 },
+  "Mount Dennis GO Station Rail": { "lat": 43.6899, "lng": -79.4896 },
+
+  "KING STATION": { "lat": 43.6499, "lng": -79.3773 },
+  "EGLINTON STATION": { "lat": 43.7069, "lng": -79.3983 },
+  "SHERBOURNE STATION": { "lat": 43.6725, "lng": -79.3761 },
+  "CHESTER STATION": { "lat": 43.6783, "lng": -79.3527 },
+  "WELLESLEY STATION": { "lat": 43.6655, "lng": -79.3830 },
+  "MAIN STREET STATION": { "lat": 43.6891, "lng": -79.3018 },
+  "MOUNT DENNIS": { "lat": 43.6899, "lng": -79.4896 },
+  "HIGH PARK STATION": { "lat": 43.6535, "lng": -79.4669 },
+  "DAVISVILLE STATION": { "lat": 43.6978, "lng": -79.3975 },
+  "MUSEUM STATION": { "lat": 43.6671, "lng": -79.3948 },
+  "DUNDAS WEST STATION": { "lat": 43.6568, "lng": -79.4520 },
+  "QUEEN STATION": { "lat": 43.6527, "lng": -79.3791 },
+  "ST CLAIR WEST STATION": { "lat": 43.6840, "lng": -79.4158 },
+  "WILSON STATION": { "lat": 43.7349, "lng": -79.4504 },
+  "Broadview Station": { "lat": 43.6769, "lng": -79.3588 },
+  "Keele Station": { "lat": 43.6555, "lng": -79.4599 },
+  "FAIRBANK": { "lat": 43.6997, "lng": -79.4365 },
+  "LAIRD": { "lat": 43.7094, "lng": -79.3617 },
+
+  "Union Station - Northbound Platform Tow": { "lat": 43.6452, "lng": -79.3806 },
+  "Weston Station": { "lat": 43.7005, "lng": -79.5097 },
+
+  "King St West At Shaw St": { "lat": 43.6443, "lng": -79.4185 },
+  "King St West At Atlantic Ave": { "lat": 43.6398, "lng": -79.4214 },
+  "King St West at Simcoe St - St. Andrew ": { "lat": 43.6475, "lng": -79.3867 },
+  "King St West At Joe Shuster Way": { "lat": 43.6390, "lng": -79.4276 },
+  "Bathurst St At King St West": { "lat": 43.6426, "lng": -79.4024 },
+
+  "Dufferin St At Dundas St West": { "lat": 43.6492, "lng": -79.4320 },
+  "East Liberty St At Lynn Williams St": { "lat": 43.6388, "lng": -79.4205 },
+  "Queen St East At Jones Ave": { "lat": 43.6616, "lng": -79.3357 },
+
+  "Weston Rd At Oxford Dr": { "lat": 43.7018, "lng": -79.5140 },
+  "Weston Rd at Lawrence Ave West": { "lat": 43.7158, "lng": -79.5036 },
+  "Weston Rd at St Phillips Rd": { "lat": 43.6995, "lng": -79.5062 },
+  "Weston Rd At Jane St": { "lat": 43.6990, "lng": -79.5165 },
+  "Weston Rd At Knob Hill Dr": { "lat": 43.7082, "lng": -79.5080 },
+
+  "Eglinton Ave West at Walkway to Rangoon": { "lat": 43.6998, "lng": -79.4708 },
+  "Wilson Ave at Julian Rd West Side - Hum": { "lat": 43.7264, "lng": -79.5054 },
+
+  "0": null
+}
