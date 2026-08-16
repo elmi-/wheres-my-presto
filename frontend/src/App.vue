@@ -1,18 +1,5 @@
-<template>
-  <div class="container">
-    <!-- replace with movie logo but with presto -->
-    <h1>dude, where's my presto</h1>
-
-    <!-- replace with loading image -->
-    <p v-if="loading">Loading trips...</p>
-
-    <div v-else>
-      <p><strong>Total Trips:</strong> {{ trips.length }}</p>
-    </div>
-  </div>
-</template>
-
 <script setup>
+import TravelMap from './components/TravelMap.vue'
 import { ref, onMounted } from 'vue';
 
 const trips = ref([]);
@@ -31,3 +18,20 @@ onMounted(async () => {
   }
 });
 </script>
+
+<template>
+  <div class="container">
+    <!-- replace with movie logo but with presto -->
+    <h1>dude, where's my presto</h1>
+
+    <!-- replace with loading image -->
+    <p v-if="loading">Loading trips...</p>
+
+    <div v-else>
+      <p><strong>Total Trips:</strong> {{ trips.length }}</p>
+    </div>
+
+    <TravelMap />
+
+  </div>
+</template>
