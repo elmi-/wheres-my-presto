@@ -9,9 +9,7 @@ const PORT = 3001;
 
 app.use(cors());
 
-const stations = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'data', 'stations.json'), 'utf8')
-);
+const stations = require('./data/stations.json');
 
 function loadTrips() {
   return new Promise((resolve, reject) => {
@@ -47,6 +45,10 @@ app.get('/api/trips', async (req, res) => {
     res.status(500).json({ error: 'failed to load trips' });
   }
 });
+
+app.get('/api/stations', async (req, res) => {
+    res.json(stations);
+})
 
 app.get('/', (req, res) => {
   res.send('PRESTO Travel API is running');
