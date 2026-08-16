@@ -14,22 +14,90 @@ const center = [43.6532, -79.3832]
 const zoom = 10
 
 const stations = ref({})
-
+const trips = ref([])
 const loading = ref(true)
+const stationStats = ref({})
+
+function normalizeStationName(name) {
+  return name
+    .toUpperCase()
+    .replace(' RAIL', '')
+    .replace(' STATION', '')
+    .trim()
+}
+
+function calculatedStationStats() {
+    const stats = {}
+
+    for(const trip of trips.value) {
+        const location = trip.location
+
+        if(!location) {
+            continue
+        }
+
+        if(!stats[location]) {
+            stats[location] = {
+                trips: 0
+            }
+        }
+        stats[location].trips++
+
+        console.log('Station names from PRESTO:')
+        for (const location in stationStats.value) {
+        console.log(location)
+        }
+
+        console.log('Station names from stations.json:')
+        for (const name in stations.value) {
+        console.log(name)
+        }
+    }
+
+    stationStats.value = stats
+
+    console.log("station stats", stationStats.value)
+}
+
+function getTripCount(stationName) {
+  const normalizedName = normalizeStationName(stationName)
+
+  for (const location in stationStats.value) {
+    if (normalizeStationName(location) === normalizedName) {
+      return stationStats.value[location].trips
+    }
+  }
+
+  return 0
+}
 
 onMounted(async () => {
   try {
-    const response = await fetch(
+    const stationsResponse = await fetch(
       'http://localhost:3001/api/stations'
     )
-    if (!response.ok) {
+
+    if (!stationsResponse.ok) {
       throw new Error('Failed to load stations')
     }
-    stations.value = await response.json()
-    console.log('stations loaded:', stations.value)
-  } catch (error) {
-    console.error('error loading stations:', error)
 
+    stations.value = await stationsResponse.json()
+
+    const tripsResponse = await fetch(
+      'http://localhost:3001/api/trips'
+    )
+
+    if (!tripsResponse.ok) {
+      throw new Error('Failed to load trips')
+    }
+    trips.value = await tripsResponse.json()
+
+    calculatedStationStats()
+
+    console.log('Stations loaded:', stations.value)
+    console.log('Trips loaded:', trips.value)
+  } catch (error) {
+    console.error('Error loading data:', error)
   } finally {
     loading.value = false
   }
@@ -50,7 +118,9 @@ onMounted(async () => {
         <LMarker v-if="station" :lat-lng="[station.lat, station.lng]">
           <LPopup>
             <strong>{{ name }}</strong>
-            <br>
+            <br><br>
+             <strong>trips: {{ getTripCount(name) }}</strong>
+            <br><br>
             lat: {{ station.lat }}
             <br>
             long: {{ station.lng }}
