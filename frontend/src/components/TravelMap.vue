@@ -5,7 +5,8 @@ import {
   LMap,
   LTileLayer,
   LMarker,
-  LPopup
+  LPopup,
+  LIcon
 } from '@vue-leaflet/vue-leaflet'
 
 import 'leaflet/dist/leaflet.css'
@@ -71,6 +72,25 @@ function getTripCount(stationName) {
   return 0
 }
 
+function getMarkerSize(stationName) {
+  const tripCount = getTripCount(stationName)
+
+  if (tripCount >= 40) {
+    return 30
+  }
+  if (tripCount >= 20) {
+    return 25
+  }
+  if (tripCount >= 10) {
+    return 20
+  }
+  return 14
+}
+
+function getTotalTrips() {
+  return trips.value.length
+}
+
 onMounted(async () => {
   try {
     const stationsResponse = await fetch(
@@ -108,6 +128,10 @@ onMounted(async () => {
     <div v-if="loading" class="loading">
       Loading stations...
     </div>
+    <div class="stats">
+        <strong>Total Trips:</strong>
+        {{ getTotalTrips() }}
+    </div>
     <LMap :zoom="zoom" :center="center">
       <LTileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -116,15 +140,20 @@ onMounted(async () => {
         />
       <template v-for="(station, name) in stations" :key="name">
         <LMarker v-if="station" :lat-lng="[station.lat, station.lng]">
-          <LPopup>
-            <strong>{{ name }}</strong>
-            <br><br>
-             <strong>trips: {{ getTripCount(name) }}</strong>
-            <br><br>
-            lat: {{ station.lat }}
-            <br>
-            long: {{ station.lng }}
-          </LPopup>
+            <LIcon :icon-size="[getMarkerSize(name), getMarkerSize(name)]" :icon-anchor="[getMarkerSize(name) / 2, getMarkerSize(name) / 2]">
+                <div class="station-marker">
+                    {{ getTripCount(name) }}
+                </div>
+            </LIcon>
+            <LPopup>
+                <strong>{{ name }}</strong>
+                <br><br>
+                <strong>trips: {{ getTripCount(name) }}</strong>
+                <br><br>
+                lat: {{ station.lat }}
+                <br>
+                long: {{ station.lng }}
+            </LPopup>
         </LMarker>
       </template>
     </LMap>
@@ -140,5 +169,29 @@ onMounted(async () => {
 .leaflet-container {
   height: 100%;
   width: 100%;
+}
+.station-marker {
+  width: 100%;
+  height: 100%;
+  border-radius: 70%;
+  background: white;
+  border: 3px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.stats {
+  position: absolute;
+  z-index: 1000;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
 }
 </style>
