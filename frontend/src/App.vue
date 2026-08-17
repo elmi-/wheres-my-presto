@@ -26,12 +26,6 @@ onMounted(async () => {
 
     <!-- replace with loading image -->
     <p v-if="loading">Loading trips...</p>
-
-    <div v-else>
-      <p><strong>Total Trips:</strong> {{ trips.length }}</p>
-    </div>
-
     <TravelMap />
-
   </div>
 </template>
