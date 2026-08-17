@@ -1,5 +1,7 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
+
+import DateFilter from './DateFilter.vue'
 
 import {
   LMap,
@@ -18,6 +20,9 @@ const stations = ref({})
 const trips = ref([])
 const loading = ref(true)
 const stationStats = ref({})
+
+const selectedYear = ref('all')
+const selectedMonth = ref('all')
 
 function normalizeStationName(name) {
   return name
@@ -91,6 +96,11 @@ function getTotalTrips() {
   return trips.value.length
 }
 
+function testDateFilter() {
+  console.log('test year:', selectedYear.value)
+  console.log('test month:', selectedMonth.value)
+}
+
 onMounted(async () => {
   try {
     const stationsResponse = await fetch(
@@ -128,6 +138,7 @@ onMounted(async () => {
     <div v-if="loading" class="loading">
       Loading stations...
     </div>
+    <DateFilter @year-changed="selectedYear = $event; testDateFilter()" @month-changed="selectedMonth = $event; testDateFilter()" />
     <div class="stats">
         <strong>Total Trips:</strong>
         {{ getTotalTrips() }}
