@@ -163,7 +163,7 @@ onMounted(async () => {
         name="OpenStreetMap"
         />
       <template v-for="(station, name) in stations" :key="name">
-        <LMarker v-if="station" :lat-lng="[station.lat, station.lng]">
+        <LMarker v-if="station && getTripCount(name) > 0" :lat-lng="[station.lat, station.lng]">
             <LIcon :icon-size="[getMarkerSize(name), getMarkerSize(name)]" :icon-anchor="[getMarkerSize(name) / 2, getMarkerSize(name) / 2]">
                 <div class="station-marker">
                     {{ getTripCount(name) }}
