@@ -14,7 +14,7 @@ import {
 import 'leaflet/dist/leaflet.css'
 
 const center = [43.6532, -79.3832]
-const zoom = 10
+const zoom = 12
 
 const stations = ref({})
 const trips = ref([])
@@ -35,7 +35,7 @@ function normalizeStationName(name) {
 function calculatedStationStats() {
     const stats = {}
 
-    for(const trip of trips.value) {
+    for(const trip of getFilteredTrips()) {
         const location = trip.location
 
         if(!location) {
@@ -48,22 +48,18 @@ function calculatedStationStats() {
             }
         }
         stats[location].trips++
-
-        console.log('Station names from PRESTO:')
-        for (const location in stationStats.value) {
-        console.log(location)
-        }
-
-        console.log('Station names from stations.json:')
-        for (const name in stations.value) {
-        console.log(name)
-        }
     }
 
     stationStats.value = stats
 
-    console.log("station stats", stationStats.value)
+    console.log("filtered station stats", stationStats.value)
 }
+
+watch(
+  [selectedYear, selectedMonth], () => {
+    calculatedStationStats()
+  }
+)
 
 function getTripCount(stationName) {
   const normalizedName = normalizeStationName(stationName)
@@ -92,10 +88,27 @@ function getMarkerSize(stationName) {
   return 14
 }
 
-function getTotalTrips() {
-  return trips.value.length
+function getFilteredTrips() {
+    return trips.value.filter(trip => {
+        const date = new Date(trip.date)
+
+        const year = String(date.getFullYear())
+
+        const month = String(date.getMonth() + 1).padStart(2, '0')
+
+        const yearMatches = selectedYear.value === 'all' || year === selectedYear.value
+
+        const monthMatches = selectedMonth.value === 'all' || month === selectedMonth.value
+
+        return yearMatches && monthMatches
+    })
 }
 
+function getTotalTrips() {
+  return getFilteredTrips().length
+}
+
+// todao: remove
 function testDateFilter() {
   console.log('test year:', selectedYear.value)
   console.log('test month:', selectedMonth.value)
@@ -150,7 +163,7 @@ onMounted(async () => {
         name="OpenStreetMap"
         />
       <template v-for="(station, name) in stations" :key="name">
-        <LMarker v-if="station" :lat-lng="[station.lat, station.lng]">
+        <LMarker v-if="station && getTripCount(name) > 0" :lat-lng="[station.lat, station.lng]">
             <LIcon :icon-size="[getMarkerSize(name), getMarkerSize(name)]" :icon-anchor="[getMarkerSize(name) / 2, getMarkerSize(name) / 2]">
                 <div class="station-marker">
                     {{ getTripCount(name) }}
