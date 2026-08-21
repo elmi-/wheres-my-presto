@@ -33,26 +33,43 @@ function normalizeStationName(name) {
 }
 
 function calculatedStationStats() {
-    const stats = {}
+  const stats = {}
 
-    for(const trip of getFilteredTrips()) {
-        const location = trip.location
+  for (const trip of getFilteredTrips()) {
+    const location = trip.location
+    const agency = trip.transitAgency
 
-        if(!location) {
-            continue
-        }
-
-        if(!stats[location]) {
-            stats[location] = {
-                trips: 0
-            }
-        }
-        stats[location].trips++
+    if (!location) {
+      continue
     }
 
-    stationStats.value = stats
+    if (!stats[location]) {
+      stats[location] = {
+        trips: 0,
+        agencies: {}
+      }
+    }
 
-    console.log("filtered station stats", stationStats.value)
+    // total trips
+    stats[location].trips++
+
+    // trips/agency
+    if (agency) {
+      if (!stats[location].agencies[agency]) {
+        stats[location].agencies[agency] = 0
+      }
+
+      stats[location].agencies[agency]++
+    }
+  }
+
+  stationStats.value = stats
+
+  // todo: remove
+  console.log(
+    'filtered station stats:',
+    stationStats.value
+  )
 }
 
 watch(
@@ -65,7 +82,7 @@ function getTripCount(stationName) {
   const normalizedName = normalizeStationName(stationName)
 
   for (const location in stationStats.value) {
-    if (normalizeStationName(location) === normalizedName) {
+    if(normalizeStationName(location) === normalizedName){
       return stationStats.value[location].trips
     }
   }
@@ -73,19 +90,54 @@ function getTripCount(stationName) {
   return 0
 }
 
-function getMarkerSize(stationName) {
-  const tripCount = getTripCount(stationName)
-
+function getMarkerSize(tripCount) {
   if (tripCount >= 40) {
     return 30
   }
+
   if (tripCount >= 20) {
     return 25
   }
+
   if (tripCount >= 10) {
     return 20
   }
+
   return 14
+}
+
+function getAgencyColor(agency) {
+  if (!agency) {
+    return '#777'
+  }
+
+  const name = agency.toLowerCase()
+
+  if (name.includes('go')) {
+    return '#27ae60'
+  }
+
+  if (name.includes('ttc')) {
+    return '#e74c3c'
+  }
+
+  if (name.includes('up')) {
+    return '#3498db'
+  }
+
+  return '#777'
+}
+
+function getStationAgencies(stationName) {
+  const normalizedName = normalizeStationName(stationName)
+
+  for (const location in stationStats.value) {
+    if (normalizeStationName(location) === normalizedName) {
+      return stationStats.value[location].agencies
+    }
+  }
+
+  return {}
 }
 
 function getFilteredTrips() {
@@ -157,34 +209,32 @@ onMounted(async () => {
         {{ getTotalTrips() }}
     </div>
     <LMap :zoom="zoom" :center="center">
-      <LTileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        layer-type="base"
-        name="OpenStreetMap"
-        />
-      <template v-for="(station, name) in stations" :key="name">
-        <LMarker v-if="station && getTripCount(name) > 0" :lat-lng="[station.lat, station.lng]">
-            <LIcon :icon-size="[getMarkerSize(name), getMarkerSize(name)]" :icon-anchor="[getMarkerSize(name) / 2, getMarkerSize(name) / 2]">
-                <div class="station-marker">
-                    {{ getTripCount(name) }}
+      <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base" name="OpenStreetMap"/>
+        <template v-for="(station, name) in stations" :key="name">
+          <template v-for="(agencyTrips, agency) in getStationAgencies(name)" :key="name + '-' + agency">
+            <LMarker v-if="station && agencyTrips > 0" :lat-lng="[station.lat, station.lng]">
+              <LIcon :icon-size="[getMarkerSize(agencyTrips), getMarkerSize(agencyTrips)]" :icon-anchor="[getMarkerSize(agencyTrips) / 2, getMarkerSize(agencyTrips)]">
+                <div class="station-marker" :style="{backgroundColor: getAgencyColor(agency)}">
+                  <span>{{ agencyTrips }}</span>
                 </div>
-            </LIcon>
-            <LPopup>
+              </LIcon>
+              <LPopup>
                 <strong>{{ name }}</strong>
-                <br><br>
-                <strong>trips: {{ getTripCount(name) }}</strong>
-                <br><br>
-                lat: {{ station.lat }}
-                <br>
-                long: {{ station.lng }}
-            </LPopup>
-        </LMarker>
-      </template>
+                <strong>{{ agency }}</strong>
+                Trips:{{ agencyTrips }}
+              </LPopup>
+            </LMarker>
+          </template>
+        </template>
     </LMap>
   </div>
 </template>
 
 <style scoped>
+.leaflet-div-icon {
+  background: none !important;
+  border: none !important;
+}
 .map-container {
   height: 600px;
   width: 100%;
@@ -197,16 +247,20 @@ onMounted(async () => {
 .station-marker {
   width: 100%;
   height: 100%;
-  border-radius: 70%;
-  background: white;
-  border: 3px solid #333;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.station-marker span {
+  transform: rotate(45deg);
+  color: white;
   font-size: 11px;
   font-weight: bold;
 }
-
 .stats {
   position: absolute;
   z-index: 1000;
