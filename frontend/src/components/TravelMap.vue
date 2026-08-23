@@ -2,6 +2,7 @@
 import { ref, onMounted, watch } from 'vue'
 
 import DateFilter from './DateFilter.vue'
+import StatsPanel from './StatsPanel.vue'
 
 import {
   LMap,
@@ -166,6 +167,36 @@ function testDateFilter() {
   console.log('test month:', selectedMonth.value)
 }
 
+function getDashboardStats() {
+  const filteredTrips = getFilteredTrips()
+
+  const totalTrips = filteredTrips.length
+
+  const stationsVisited = Object.keys(stationStats.value).length
+
+
+  let topStation = '-'
+  let topTrips = 0
+
+  for (const station in stationStats.value) {
+    const trips = stationStats.value[station].trips
+
+    if (trips > topTrips) {
+      topTrips = trips
+      topStation = station
+
+    }
+  }
+
+  return {
+    totalTrips,
+    stationCount: stationsVisited,
+    topStation,
+    topStationTrips:
+      topTrips
+  }
+}
+
 onMounted(async () => {
   try {
     const stationsResponse = await fetch(
@@ -203,11 +234,8 @@ onMounted(async () => {
     <div v-if="loading" class="loading">
       Loading stations...
     </div>
+    <StatsPanel :stats="getDashboardStats()"/>
     <DateFilter @year-changed="selectedYear = $event; testDateFilter()" @month-changed="selectedMonth = $event; testDateFilter()" />
-    <div class="stats">
-        <strong>Total Trips:</strong>
-        {{ getTotalTrips() }}
-    </div>
     <LMap :zoom="zoom" :center="center">
       <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base" name="OpenStreetMap"/>
         <template v-for="(station, name) in stations" :key="name">
