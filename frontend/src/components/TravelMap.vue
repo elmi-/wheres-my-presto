@@ -26,10 +26,10 @@ const selectedMonth = ref('all')
 
 function normalizeStationName(name) {
   return name
-    .toUpperCase()
-    .replace(' RAIL', '')
-    .replace(' STATION', '')
-    .trim()
+    // .toUpperCase()
+    // .replace(' RAIL', '')
+    // .replace(' STATION', '')
+    // .trim()
 }
 
 function calculatedStationStats() {
@@ -117,15 +117,15 @@ function getAgencyColor(agency) {
     return '#27ae60'
   }
 
-  if (name.includes('ttc')) {
+  if (name.includes('transit')) {
     return '#e74c3c'
   }
 
-  if (name.includes('up')) {
+  if (name.includes('pearson')) {
     return '#3498db'
   }
 
-  return '#777'
+  return '#000'
 }
 
 function getStationAgencies(stationName) {
