@@ -157,16 +157,6 @@ function getFilteredTrips() {
     })
 }
 
-function getTotalTrips() {
-  return getFilteredTrips().length
-}
-
-// todao: remove
-function testDateFilter() {
-  console.log('test year:', selectedYear.value)
-  console.log('test month:', selectedMonth.value)
-}
-
 function getDashboardStats() {
   const filteredTrips = getFilteredTrips()
   const totalTrips = filteredTrips.length
@@ -228,7 +218,7 @@ onMounted(async () => {
     <div v-if="loading" class="loading">
       Loading stations...
     </div>
-    <DateFilter @year-changed="selectedYear = $event; testDateFilter()" @month-changed="selectedMonth = $event; testDateFilter()" />
+    <DateFilter @year-changed="selectedYear = $event;" @month-changed="selectedMonth = $event;" />
     <!-- <div class="stats">
         <strong>Total Trips:</strong>
         {{ getTotalTrips() }}

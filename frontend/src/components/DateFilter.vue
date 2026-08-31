@@ -42,7 +42,7 @@ watch(selectedMonth, (value) => {
 
     <div class="filter-group">
       <label for="month">
-        month
+        Month
       </label>
       <select id="month" v-model="selectedMonth">
         <option value="all">
