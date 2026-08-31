@@ -1,7 +1,10 @@
 <script setup>
-import TravelMap from './components/TravelMap.vue'
 import { ref, onMounted } from 'vue';
 
+import TravelMap from './components/TravelMap.vue'
+import DateFilter from './components/DateFilter.vue';
+
+// todo: remove when cleaning project
 const trips = ref([]);
 const loading = ref(true);
 
@@ -17,6 +20,9 @@ onMounted(async () => {
     loading.value = false;
   }
 });
+
+const selectedYear = ref('all')
+const selectedMonth = ref('all')
 </script>
 
 <template>
@@ -24,11 +30,12 @@ onMounted(async () => {
     <!-- replace with movie logo but with presto -->
     <!-- <h1>dude, where's my presto</h1> -->
      <header class="dashboard-header">
-      <!-- move filters from travelmap -->
-      <!-- <div class="dashboard-filters"></div> -->
-       <div class="logo-container">
-        <img src="./assets/presto-app-logo.png" alt="dude, where's my presto" />
-       </div>
+        <div class="logo-container">
+          <img src="./assets/presto-app-logo.png" alt="dude, where's my presto" />
+        </div>
+        <div class="dashboard-filters">
+          <DateFilter @year-changed="selectedYear = $event" @month-changed="selectedMonth = $event" />
+        </div>
      </header>
      <section class="dashboard-content">
       <!-- replace with loading image -->
