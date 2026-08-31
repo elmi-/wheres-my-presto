@@ -254,6 +254,9 @@ onMounted(async () => {
         </template>
     </LMap>
   </div>
+  <div class="map-legend">
+
+  </div>
 </template>
 
 <style scoped>
