@@ -14,6 +14,10 @@ import {
 
 import 'leaflet/dist/leaflet.css'
 
+const emit = defineEmits([
+  'update-stats'
+])
+
 const center = [43.6532, -79.3832]
 const zoom = 12
 
@@ -180,12 +184,16 @@ function getDashboardStats() {
     }
   }
 
-  return {
+  const stats = {
     totalTrips,
     stationCount,
     topStation,
     topStationTrips
   }
+
+  emit('update-stats', stats)
+
+  return stats
 }
 
 onMounted(async () => {
@@ -231,7 +239,7 @@ onMounted(async () => {
         <strong>Total Trips:</strong>
         {{ getTotalTrips() }}
     </div> -->
-    <StatsPanel :stats="getDashboardStats()" />
+    <!-- <StatsPanel :stats="getDashboardStats()" /> -->
     <LMap :zoom="zoom" :center="center">
       <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base" name="OpenStreetMap"/>
         <template v-for="(station, name) in stations" :key="name">

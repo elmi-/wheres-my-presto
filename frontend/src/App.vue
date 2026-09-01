@@ -1,13 +1,15 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 
 import TravelMap from './components/TravelMap.vue'
 import DateFilter from './components/DateFilter.vue';
+import StatsPanel from './components/StatsPanel.vue';
 
 // todo: remove when cleaning project
 const trips = ref([]);
 const loading = ref(true);
 
+// todo: remove
 onMounted(async () => {
   try {
     const response = await fetch('http://localhost:3001/api/trips');
@@ -23,6 +25,13 @@ onMounted(async () => {
 
 const selectedYear = ref('all')
 const selectedMonth = ref('all')
+
+const dashboardStats = ref({
+  totalTrips: 0,
+  stationCount: 0,
+  topStation: '-',
+  topStationTrips: 0
+})
 </script>
 
 <template>
@@ -35,12 +44,13 @@ const selectedMonth = ref('all')
         </div>
         <div class="dashboard-filters">
           <DateFilter @year-changed="selectedYear = $event" @month-changed="selectedMonth = $event" />
+          <StatsPanel :stats="dashboardStats" />
         </div>
      </header>
      <section class="dashboard-content">
       <!-- replace with loading image -->
       <p v-if="loading">Loading trips...</p>
-      <TravelMap :selected-year="selectedYear" :selected-month="selectedMonth" />
+      <TravelMap :selected-year="selectedYear" :selected-month="selectedMonth" @update-stats="dashboardStats = $event" />
      </section>
   </div>
 </template>
