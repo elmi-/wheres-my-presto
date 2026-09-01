@@ -40,7 +40,7 @@ const selectedMonth = ref('all')
      <section class="dashboard-content">
       <!-- replace with loading image -->
       <p v-if="loading">Loading trips...</p>
-      <TravelMap />
+      <TravelMap :selected-year="selectedYear" :selected-month="selectedMonth" />
      </section>
   </div>
 </template>
@@ -48,7 +48,6 @@ const selectedMonth = ref('all')
 * {
   box-sizing: border-box;
 }
-
 html,
 body,
 #app {
@@ -57,27 +56,26 @@ body,
   min-height: 100%;
   background: white;
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .app {
   min-height: 100vh;
   background: white;
 }
-
 .dashboard-header {
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
-
+.dashboard-filters {
+  padding: 10px 0;
+}
 .logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .logo-container img {
   max-height: 150px;
   width: auto;
@@ -86,7 +84,7 @@ body {
 
 @media (max-width: 600px) {
   .dashboard-header {
-    justify-content: center;
+    display: block;
   }
   .logo-container img  {
     max-width: 250px;

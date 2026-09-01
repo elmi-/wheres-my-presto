@@ -22,8 +22,17 @@ const trips = ref([])
 const loading = ref(true)
 const stationStats = ref({})
 
-const selectedYear = ref('all')
-const selectedMonth = ref('all')
+const props = defineProps({
+  selectedYear: {
+    type: String,
+    required: true
+  },
+
+  selectedMonth: {
+    type: String,
+    required: true
+  }
+})
 
 function normalizeStationName(name) {
   return name
@@ -72,9 +81,7 @@ function calculatedStationStats() {
     stationStats.value
   )
 }
-
-watch(
-  [selectedYear, selectedMonth], () => {
+watch(() => [props.selectedYear, props.selectedMonth], () => {
     calculatedStationStats()
   }
 )
@@ -149,9 +156,9 @@ function getFilteredTrips() {
 
         const month = String(date.getMonth() + 1).padStart(2, '0')
 
-        const yearMatches = selectedYear.value === 'all' || year === selectedYear.value
+        const yearMatches = props.selectedYear === 'all' || year === props.selectedYear
 
-        const monthMatches = selectedMonth.value === 'all' || month === selectedMonth.value
+        const monthMatches = props.selectedMonth === 'all' || month === props.selectedMonth
 
         return yearMatches && monthMatches
     })
@@ -218,7 +225,8 @@ onMounted(async () => {
     <div v-if="loading" class="loading">
       Loading stations...
     </div>
-    <DateFilter @year-changed="selectedYear = $event;" @month-changed="selectedMonth = $event;" />
+    <!-- todo: remove later -->
+    <!-- <DateFilter @year-changed="selectedYear = $event;" @month-changed="selectedMonth = $event;" /> -->
     <!-- <div class="stats">
         <strong>Total Trips:</strong>
         {{ getTotalTrips() }}
