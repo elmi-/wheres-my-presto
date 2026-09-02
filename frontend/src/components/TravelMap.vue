@@ -14,6 +14,10 @@ import {
 
 import 'leaflet/dist/leaflet.css'
 
+const emit = defineEmits([
+  'update-stats'
+])
+
 const center = [43.6532, -79.3832]
 const zoom = 12
 
@@ -22,8 +26,17 @@ const trips = ref([])
 const loading = ref(true)
 const stationStats = ref({})
 
-const selectedYear = ref('all')
-const selectedMonth = ref('all')
+const props = defineProps({
+  selectedYear: {
+    type: String,
+    required: true
+  },
+
+  selectedMonth: {
+    type: String,
+    required: true
+  }
+})
 
 function normalizeStationName(name) {
   return name
@@ -72,10 +85,9 @@ function calculatedStationStats() {
     stationStats.value
   )
 }
-
-watch(
-  [selectedYear, selectedMonth], () => {
+watch(() => [props.selectedYear, props.selectedMonth], () => {
     calculatedStationStats()
+    getDashboardStats()
   }
 )
 
@@ -93,18 +105,18 @@ function getTripCount(stationName) {
 
 function getMarkerSize(tripCount) {
   if (tripCount >= 40) {
-    return 30
+    return 35
   }
 
   if (tripCount >= 20) {
-    return 25
+    return 30
   }
 
   if (tripCount >= 10) {
-    return 20
+    return 25
   }
 
-  return 14
+  return 20
 }
 
 function getAgencyColor(agency) {
@@ -149,22 +161,12 @@ function getFilteredTrips() {
 
         const month = String(date.getMonth() + 1).padStart(2, '0')
 
-        const yearMatches = selectedYear.value === 'all' || year === selectedYear.value
+        const yearMatches = props.selectedYear === 'all' || year === props.selectedYear
 
-        const monthMatches = selectedMonth.value === 'all' || month === selectedMonth.value
+        const monthMatches = props.selectedMonth === 'all' || month === props.selectedMonth
 
         return yearMatches && monthMatches
     })
-}
-
-function getTotalTrips() {
-  return getFilteredTrips().length
-}
-
-// todao: remove
-function testDateFilter() {
-  console.log('test year:', selectedYear.value)
-  console.log('test month:', selectedMonth.value)
 }
 
 function getDashboardStats() {
@@ -183,12 +185,16 @@ function getDashboardStats() {
     }
   }
 
-  return {
+  const stats = {
     totalTrips,
     stationCount,
     topStation,
     topStationTrips
   }
+
+  emit('update-stats', stats)
+
+  return stats
 }
 
 onMounted(async () => {
@@ -213,6 +219,7 @@ onMounted(async () => {
     trips.value = await tripsResponse.json()
 
     calculatedStationStats()
+    getDashboardStats()
 
     console.log('Stations loaded:', stations.value)
     console.log('Trips loaded:', trips.value)
@@ -228,12 +235,13 @@ onMounted(async () => {
     <div v-if="loading" class="loading">
       Loading stations...
     </div>
-    <DateFilter @year-changed="selectedYear = $event; testDateFilter()" @month-changed="selectedMonth = $event; testDateFilter()" />
+    <!-- todo: remove later -->
+    <!-- <DateFilter @year-changed="selectedYear = $event;" @month-changed="selectedMonth = $event;" /> -->
     <!-- <div class="stats">
         <strong>Total Trips:</strong>
         {{ getTotalTrips() }}
     </div> -->
-    <StatsPanel :stats="getDashboardStats()" />
+    <!-- <StatsPanel :stats="getDashboardStats()" /> -->
     <LMap :zoom="zoom" :center="center">
       <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base" name="OpenStreetMap"/>
         <template v-for="(station, name) in stations" :key="name">
@@ -289,16 +297,5 @@ onMounted(async () => {
   color: white;
   font-size: 11px;
   font-weight: bold;
-}
-.stats {
-  position: absolute;
-  z-index: 1000;
-  top: 10px;
-  right: 10px;
-  background: white;
-  padding: 10px 15px;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  font-size: 16px;
 }
 </style>
