@@ -71,15 +71,14 @@ console.log('StatsPanel props:', props)
 <style scoped>
 
 .stats-panel {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  display: flex;
+  width: 100%;
   gap: 15px;
   margin-bottom: 20px;
 }
 .stat-card {
   background: white;
   padding: 20px;
-  border-radius: 10px;
   box-shadow:0 2px 6px rgba(0, 0, 0, 0.15);
 }
 .stat-label {

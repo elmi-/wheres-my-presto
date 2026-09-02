@@ -87,6 +87,7 @@ function calculatedStationStats() {
 }
 watch(() => [props.selectedYear, props.selectedMonth], () => {
     calculatedStationStats()
+    getDashboardStats()
   }
 )
 
@@ -104,18 +105,18 @@ function getTripCount(stationName) {
 
 function getMarkerSize(tripCount) {
   if (tripCount >= 40) {
-    return 30
+    return 35
   }
 
   if (tripCount >= 20) {
-    return 25
+    return 30
   }
 
   if (tripCount >= 10) {
-    return 20
+    return 25
   }
 
-  return 14
+  return 20
 }
 
 function getAgencyColor(agency) {
@@ -218,6 +219,7 @@ onMounted(async () => {
     trips.value = await tripsResponse.json()
 
     calculatedStationStats()
+    getDashboardStats()
 
     console.log('Stations loaded:', stations.value)
     console.log('Trips loaded:', trips.value)
@@ -295,16 +297,5 @@ onMounted(async () => {
   color: white;
   font-size: 11px;
   font-weight: bold;
-}
-.stats {
-  position: absolute;
-  z-index: 1000;
-  top: 10px;
-  right: 10px;
-  background: white;
-  padding: 10px 15px;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  font-size: 16px;
 }
 </style>
