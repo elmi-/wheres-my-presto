@@ -20,7 +20,7 @@ watch(selectedMonth, (value) => {
 
 <template>
   <div class="date-filter">
-    <div class="filter-group">
+    <!-- <div class="filter-group">
       <label for="year">
         Year
       </label>
@@ -38,7 +38,7 @@ watch(selectedMonth, (value) => {
           2024
         </option>
       </select>
-    </div>
+    </div> -->
 
     <div class="filter-group">
       <label for="month">

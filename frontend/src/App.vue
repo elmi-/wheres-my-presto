@@ -80,6 +80,7 @@ body {
 }
 .dashboard-filters {
   padding: 10px 0;
+  width: 70%;
 }
 .logo-container {
   display: flex;
