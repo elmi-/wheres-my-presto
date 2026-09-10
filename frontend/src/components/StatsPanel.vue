@@ -22,18 +22,10 @@ console.log('StatsPanel props:', props)
     </div>
     <div class="stat-card">
       <div class="stat-label">
-        Stations Visited
+        Stations
       </div>
       <div class="stat-value">
         {{ props.stats.stationCount }}
-      </div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">
-        Most Used Station
-      </div>
-      <div class="stat-value station-name">
-        {{ props.stats.topStation }}
       </div>
     </div>
     <div class="stat-card">
@@ -44,11 +36,20 @@ console.log('StatsPanel props:', props)
         {{ props.stats.topStationTrips }}
       </div>
     </div>
+    <div class="stat-card">
+      <div class="stat-label">
+        Most Used Station
+      </div>
+      <div class="stat-value station-name">
+        {{ props.stats.topStation }}
+      </div>
+    </div>
   </div>
 </template>
 <style scoped>
 .stats-panel {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   gap: 15px;
   margin-bottom: 20px;

@@ -93,13 +93,16 @@ body {
   object-fit: contain;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .dashboard-header {
     display: block;
   }
   .logo-container img  {
     max-width: 250px;
     text-align: center;
+  }
+  .dashboard-filters {
+    width: auto;
   }
 }
 </style>
