@@ -1,266 +1,306 @@
 Date,TransitAgency,Location,Type,Amount
-4/11/2026 16:05,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-4/11/2026 16:55,GO Transit,Union Station Rail,Fare Payment,($1.06)
-4/15/2026 17:33,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-4/15/2026 18:06,GO Transit,Union Station Rail,Fare Payment,($1.06)
-4/18/2026 16:57,GO Transit,Union Station Rail,Fare Payment,($3.70)
-4/20/2026 12:02,Toronto Transit Commission,King St West At Shaw St,Fare Payment,($3.30)
-4/22/2026 16:53,GO Transit,Union Station Rail,Epurse Load,$5.00 
-4/22/2026 16:54,GO Transit,Union Station Rail,Fare Payment,($3.70)
-4/22/2026 17:23,GO Transit,Weston GO Station Rail,Tap Off Automatic,($10.22)
-4/25/2026 10:04,GO Transit,Weston GO Station Rail,Epurse Load,$38.47 
-4/25/2026 10:12,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-4/25/2026 11:18,GO Transit,Exhibition GO Station Rail,Fare Payment,($1.06)
-4/26/2026 10:38,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-4/26/2026 12:10,GO Transit,Weston GO Station Rail,Tap Off Automatic,($10.22)
-4/27/2026 9:29,GO Transit,,Epurse Load,$10.22 
-4/28/2026 9:42,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-4/28/2026 10:04,GO Transit,Union Station Rail,Fare Payment,($1.06)
-4/28/2026 12:46,Toronto Transit Commission,KING STATION,Fare Payment,($3.30)
-4/29/2026 11:43,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-4/30/2026 17:36,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-4/30/2026 18:11,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($3.30)
-4/30/2026 19:43,GO Transit,Union Station Rail,Fare Payment,($3.70)
-5/1/2026 13:13,GO Transit,,Epurse Load,$26.49 
-5/1/2026 15:30,Toronto Transit Commission,Weston Rd At Oxford Dr,Fare Payment,($3.30)
-5/2/2026 11:06,GO Transit,Weston GO Station Rail,Epurse Load,$40.00 
-5/2/2026 11:07,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/3/2026 11:03,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/3/2026 11:43,GO Transit,Union Station Rail,Fare Payment,($1.06)
-5/6/2026 11:23,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-5/6/2026 14:00,Toronto Transit Commission,MOUNT DENNIS,Fare Payment,($2.10)
-5/6/2026 17:33,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/6/2026 18:35,GO Transit,Danforth GO Station Rail,Fare Payment,($4.21)
-5/7/2026 10:41,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/7/2026 11:08,GO Transit,Union Station Rail,Fare Payment,($1.06)
-5/8/2026 11:02,Toronto Transit Commission,King St West At Shaw St,Fare Payment,($2.10)
-5/8/2026 13:35,Toronto Transit Commission,FAIRBANK,Fare Payment,($2.10)
-5/11/2026 13:41,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-5/11/2026 16:28,Toronto Transit Commission,MOUNT DENNIS,Fare Payment,($2.10)
-5/12/2026 10:56,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-5/12/2026 13:34,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($2.10)
-5/13/2026 17:15,GO Transit,Weston GO Station Rail,Epurse Load,$10.00 
-5/13/2026 17:15,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/13/2026 18:05,GO Transit,Union Station Rail,Fare Payment,($1.06)
-5/13/2026 22:18,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($2.10)
-5/14/2026 12:21,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/14/2026 13:26,GO Transit,Exhibition GO Station Rail,Fare Payment,($1.06)
-5/15/2026 12:39,GO Transit,Exhibition GO Station Rail,Epurse Load,$10.00 
-5/15/2026 12:49,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-5/15/2026 13:58,GO Transit,Weston GO Station Rail,Fare Payment,($1.06)
-5/16/2026 10:52,Toronto Transit Commission,MOUNT DENNIS,Fare Payment,($2.10)
-5/16/2026 14:24,Toronto Transit Commission,MAIN STREET STATION,Fare Payment,($2.10)
-5/17/2026 11:28,Toronto Transit Commission,0,Fare Payment,($2.10)
-5/18/2026 9:59,GO Transit,Exhibition GO Station Rail,Epurse Load,$5.00 
-5/18/2026 10:02,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-5/19/2026 13:54,Toronto Transit Commission,Eglinton Ave West at Walkway to Rangoon,Fare Payment,($2.10)
-5/20/2026 18:33,GO Transit,Exhibition GO Station Rail,Epurse Load,$5.00 
-5/20/2026 18:34,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-5/20/2026 19:20,GO Transit,Mount Dennis GO Station Rail,Fare Payment,($0.17)
-5/21/2026 19:01,GO Transit,Exhibition GO Station Rail,Epurse Load,$5.00 
-5/21/2026 19:01,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-5/21/2026 19:56,GO Transit,Weston GO Station Rail,Fare Payment,($1.06)
-5/22/2026 10:41,GO Transit,Weston GO Station Rail,Epurse Load,$5.00 
-5/22/2026 10:41,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/22/2026 11:39,GO Transit,Exhibition GO Station Rail,Fare Payment,($1.06)
-5/23/2026 21:20,GO Transit,Exhibition GO Station Rail,Epurse Load,$5.00 
-5/23/2026 21:32,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($2.10)
-5/25/2026 15:13,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/25/2026 15:34,GO Transit,Union Station Rail,Fare Payment,($1.06)
-5/25/2026 22:03,GO Transit,Exhibition GO Station Rail,Epurse Load,$5.00 
-5/25/2026 22:03,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-5/25/2026 22:52,GO Transit,Mount Dennis GO Station Rail,Fare Payment,($0.17)
-5/26/2026 19:05,GO Transit,Weston GO Station Rail,Epurse Load,$10.00 
-5/27/2026 9:07,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-5/27/2026 12:38,Toronto Transit Commission,EGLINTON STATION,Fare Payment,($2.10)
-5/27/2026 15:20,Toronto Transit Commission,MAIN STREET STATION,Fare Payment,($2.10)
-5/28/2026 5:40,GO Transit,Weston GO Station Rail,Epurse Load,$5.00 
-5/28/2026 5:42,GO Transit,Weston GO Station Rail,Epurse Load,$1.90 
-5/28/2026 5:42,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-5/28/2026 6:36,GO Transit,Union Station Rail,Fare Payment,($1.06)
-5/28/2026 18:35,Toronto Transit Commission,SHERBOURNE STATION,Fare Payment,($2.10)
-5/28/2026 21:40,Toronto Transit Commission,CHESTER STATION,Fare Payment,($2.10)
-5/29/2026 16:16,GO Transit,Weston GO Station Rail,Epurse Load,$10.00 
-5/29/2026 16:21,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-5/30/2026 7:01,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-5/31/2026 19:02,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-6/1/2026 6:13,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-6/1/2026 6:35,GO Transit,Union Station Rail,Fare Payment,($1.06)
-6/1/2026 18:55,Toronto Transit Commission,WELLESLEY STATION,Epurse Load,$5.00 
-6/1/2026 18:55,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-6/2/2026 5:54,GO Transit,Weston GO Station Rail,Epurse Load,$5.00 
-6/2/2026 6:08,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-6/2/2026 6:36,GO Transit,Union Station Rail,Fare Payment,($1.06)
-6/2/2026 19:02,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-6/3/2026 6:05,GO Transit,Weston GO Station Rail,Epurse Load,$2.00 
-6/3/2026 6:06,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-6/3/2026 6:33,GO Transit,Union Station Rail,Fare Payment,($1.06)
-6/4/2026 10:10,GO Transit,Weston GO Station Rail,Epurse Load,$20.00 
-6/4/2026 10:22,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-6/4/2026 13:07,Toronto Transit Commission,MAIN STREET STATION,Fare Payment,($2.10)
-6/4/2026 15:30,Toronto Transit Commission,EGLINTON STATION,Fare Payment,($2.10)
-6/4/2026 17:54,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-6/6/2026 10:48,Toronto Transit Commission,Keele Station,Fare Payment,($2.10)
-6/6/2026 11:37,Toronto Transit Commission,King St West at Simcoe St - St. Andrew ,Fare Payment,($2.10)
-6/6/2026 19:44,Toronto Transit Commission,Dufferin St At Dundas St West,Fare Payment,($2.10)
-6/7/2026 11:26,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-6/7/2026 21:33,Toronto Transit Commission,Broadview Station,Fare Payment,($2.10)
-6/8/2026 4:44,GTAFS Central System,,Epurse Load,$3.00 
-6/8/2026 4:46,Toronto Transit Commission,Weston Rd at St Phillips Rd,Fare Payment,($2.10)
-6/8/2026 18:11,GTAFS Central System,,Epurse Load,$2.00 
-6/8/2026 19:19,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-6/9/2026 13:52,GTAFS Central System,,Epurse Load,$1.00 
-6/9/2026 14:17,Toronto Transit Commission,King St West At Shaw St,Fare Payment,($2.10)
-6/10/2026 15:11,GTAFS Central System,,Epurse Load,$4.20 
-6/10/2026 15:21,Toronto Transit Commission,WILSON STATION,Fare Payment,($2.10)
-6/11/2026 10:05,Toronto Transit Commission,Weston Rd At Jane St,Fare Payment,($2.10)
-6/12/2026 0:52,GTAFS Central System,,Epurse Load,$20.00 
-6/12/2026 0:54,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($2.10)
-6/13/2026 12:44,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-6/13/2026 13:09,GO Transit,Union Station Rail,Fare Payment,($3.70)
-6/14/2026 11:07,Toronto Transit Commission,0,Fare Payment,($2.10)
-6/14/2026 12:34,GO Transit,Union Station Rail,Fare Payment,($1.94)
-6/14/2026 13:06,GO Transit,Mount Dennis GO Station Rail,Fare Payment,$0.17 
-6/15/2026 5:58,GTAFS Central System,,Epurse Load,$5.00 
-6/15/2026 6:02,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-6/15/2026 6:26,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($2.10)
-6/15/2026 20:18,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($2.10)
-6/16/2026 6:07,GO Transit,Weston GO Station Rail,Epurse Load,$10.00 
-6/16/2026 6:07,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-6/16/2026 6:36,GO Transit,Union Station Rail,Fare Payment,($1.06)
-6/16/2026 20:11,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($2.10)
-6/19/2026 18:43,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-6/20/2026 9:58,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-6/21/2026 15:42,GTAFS Central System,,Epurse Load,$5.98 
-6/21/2026 15:48,Toronto Transit Commission,King St West At Joe Shuster Way,Fare Payment,($2.10)
-6/22/2026 10:39,GTAFS Central System,,Epurse Load,$10.00 
-6/22/2026 10:40,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-6/22/2026 11:08,GO Transit,Union Station Rail,Fare Payment,($1.06)
-6/22/2026 18:27,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($2.10)
-6/23/2026 12:01,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-6/23/2026 15:30,Toronto Transit Commission,HIGH PARK STATION,Fare Payment,($2.10)
-6/24/2026 10:37,GTAFS Central System,,Epurse Load,$5.00 
-6/24/2026 10:57,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-6/25/2026 16:47,Toronto Transit Commission,Weston Rd at Lawrence Ave West,Fare Payment,($2.10)
-6/25/2026 19:39,Toronto Transit Commission,DAVISVILLE STATION,Epurse Load,$5.00 
-6/25/2026 19:40,Toronto Transit Commission,DAVISVILLE STATION,Fare Payment,($2.10)
-6/28/2026 11:07,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-6/28/2026 11:12,GTAFS Central System,,Epurse Load,$3.62 
-6/28/2026 11:35,GO Transit,Union Station Rail,Fare Payment,($1.06)
-6/30/2026 5:23,GTAFS Central System,,Epurse Load,$10.00 
-6/30/2026 6:03,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-6/30/2026 6:38,GO Transit,Union Station Rail,Fare Payment,($1.06)
-6/30/2026 19:02,Toronto Transit Commission,KING STATION,Fare Payment,($2.10)
-7/4/2026 8:44,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-7/4/2026 9:47,GO Transit,Union Station Rail,Fare Payment,($1.06)
-7/4/2026 15:53,Toronto Transit Commission,Bathurst St At King St West,Fare Payment,($2.10)
-7/5/2026 17:04,GTAFS Central System,,Epurse Load,$10.00 
-7/5/2026 17:09,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($2.10)
-7/7/2026 6:09,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-7/7/2026 6:37,GO Transit,Union Station Rail,Fare Payment,($1.06)
-7/7/2026 18:40,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-7/8/2026 5:05,GTAFS Central System,,Epurse Load,$9.37 
-7/8/2026 5:51,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-7/8/2026 6:14,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($2.10)
-7/8/2026 18:39,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-7/9/2026 5:12,GTAFS Central System,,Epurse Load,$10.00 
-7/9/2026 5:52,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-7/9/2026 6:15,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($2.10)
-7/9/2026 18:48,Toronto Transit Commission,WELLESLEY STATION,Fare Payment,($2.10)
-7/10/2026 5:15,GTAFS Central System,,Epurse Load,$7.91 
-7/10/2026 5:51,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-7/10/2026 6:14,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($2.10)
-7/10/2026 18:01,GTAFS Central System,,Epurse Load,$10.00 
-7/10/2026 18:21,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($2.10)
-7/11/2026 8:48,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-7/14/2026 5:58,GTAFS Central System,,Epurse Load,$10.00 
-7/14/2026 6:00,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-7/14/2026 6:27,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($2.10)
-7/14/2026 19:06,Toronto Transit Commission,MUSEUM STATION,Fare Payment,($2.10)
-7/15/2026 6:09,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-7/15/2026 6:35,GO Transit,Union Station Rail,Fare Payment,($1.06)
-7/15/2026 18:59,GTAFS Central System,,Epurse Load,$10.00 
-7/15/2026 18:59,Toronto Transit Commission,MUSEUM STATION,Fare Payment,($2.10)
-7/16/2026 6:03,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-7/16/2026 6:28,Toronto Transit Commission,Union Station - Northbound Platform Tow,Fare Payment,($2.10)
-7/16/2026 17:36,Toronto Transit Commission,MUSEUM STATION,Fare Payment,($2.10)
-7/22/2026 14:32,GTAFS Central System,,Epurse Load,$10.00 
-7/22/2026 15:06,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-7/22/2026 15:37,GO Transit,Union Station Rail,Fare Payment,($1.06)
-7/22/2026 18:43,Toronto Transit Commission,EGLINTON STATION,Fare Payment,($2.10)
-7/29/2026 6:01,GO Transit,Exhibition GO Station Rail,Epurse Load,$5.00 
-7/30/2026 10:27,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($3.30)
-7/30/2026 10:49,GTAFS Central System,,Epurse Load,$4.00 
-7/30/2026 17:05,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-7/30/2026 19:28,Toronto Transit Commission,King St West At Atlantic Ave,Fare Payment,($2.10)
-7/31/2026 1:29,Toronto Transit Commission,King St West At Shaw St,Fare Payment,($2.10)
-7/31/2026 5:58,GTAFS Central System,,Epurse Load,$10.00 
-7/31/2026 5:59,Toronto Transit Commission,DUNDAS WEST STATION,Fare Payment,($2.10)
-8/3/2026 15:55,Toronto Transit Commission,MOUNT DENNIS,Fare Payment,($2.10)
-8/4/2026 14:52,Toronto Transit Commission,MOUNT DENNIS,Fare Payment,($2.10)
-8/4/2026 19:39,Toronto Transit Commission,EGLINTON STATION,Fare Payment,($2.10)
-8/5/2026 11:23,GTAFS Central System,,Epurse Load,$10.00 
-8/5/2026 11:23,Toronto Transit Commission,MOUNT DENNIS,Fare Payment,($2.10)
-8/5/2026 17:04,Toronto Transit Commission,QUEEN STATION,Fare Payment,($2.10)
-8/5/2026 19:38,Toronto Transit Commission,ST CLAIR WEST STATION,Fare Payment,($2.10)
-8/6/2026 14:09,Toronto Transit Commission,LAIRD,Fare Payment,($2.10)
-8/7/2026 11:57,Toronto Transit Commission,Weston Rd At Knob Hill Dr,Fare Payment,($2.10)
-8/7/2026 22:54,GTAFS Central System,,Epurse Load,$10.00 
-8/7/2026 23:04,Toronto Transit Commission,Wilson Ave at Julian Rd West Side - Hum,Fare Payment,($2.10)
-8/8/2026 14:41,Toronto Transit Commission,0,Fare Payment,($2.10)
-8/8/2026 19:35,Toronto Transit Commission,King St West At Shaw St,Fare Payment,($2.10)
-8/9/2026 9:54,Toronto Transit Commission,Weston Rd at St Phillips Rd,Fare Payment,($2.10)
-8/9/2026 13:07,Toronto Transit Commission,East Liberty St At Lynn Williams St,Fare Payment,($2.10)
-8/9/2026 17:40,GTAFS Central System,,Epurse Load,$10.00 
-8/9/2026 18:27,Toronto Transit Commission,Queen St East At Jones Ave,Fare Payment,($2.10)
-8/9/2026 20:35,Toronto Transit Commission,EGLINTON STATION,Fare Payment,($2.10)
-8/10/2026 11:55,GO Transit,Weston GO Station Rail,Tap Off Automatic,($11.23)
-8/10/2026 18:06,GO Transit,,Epurse Load,$10.17 
-8/10/2026 18:29,GTAFS Central System,,Epurse Load,$10.00 
-8/10/2026 18:30,GO Transit,Union Station Rail,Fare Payment,($3.70)
-8/10/2026 18:50,GO Transit,Mount Dennis GO Station Rail,Fare Payment,($0.17)
-8/11/2026 18:52,Toronto Transit Commission,Weston Rd At Bradstock Rd,Fare Payment,($2.10)
-8/12/2026 9:11,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-8/12/2026 9:26,GTAFS Central System,,Epurse Load,$10.00 
-8/12/2026 9:56,GO Transit,Exhibition GO Station Rail,Fare Payment,($1.06)
-8/13/2026 14:41,GO Transit,Weston GO Station Rail,Fare Payment,($3.70)
-8/14/2026 0:48,Toronto Transit Commission,Liberty St At Atlantic Ave,Fare Payment,($2.10)
-8/17/2026 14:19,Toronto Transit Commission,16134,Fare Payment,($2.10)
-8/17/2026 20:16,Toronto Transit Commission,MOUNT PLEASANT,Fare Payment,($2.10)
-8/18/2026 6:20,GTAFS Central System,,Epurse Load,$9.01 
-8/18/2026 8:57,Toronto Transit Commission,Weston Rd At Knob Hill Dr,Fare Payment,($2.10)
-8/18/2026 12:51,Toronto Transit Commission,Wilson Ave At Keele St,Fare Payment,($2.10)
-8/18/2026 16:19,GTAFS Central System,,Epurse Load,$5.00 
-8/18/2026 16:19,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-8/18/2026 16:53,Toronto Transit Commission,King St West at Simcoe St - St. Andrew ,Fare Payment,($2.10)
-8/18/2026 23:02,GTAFS Central System,,Epurse Load,$5.00 
-8/18/2026 23:05,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-8/18/2026 23:50,GO Transit,Mount Dennis GO Station Rail,Fare Payment,($0.17)
-8/19/2026 16:09,Toronto Transit Commission,MOUNT DENNIS,Fare Payment,($2.10)
-8/19/2026 18:29,Toronto Transit Commission,DAVISVILLE STATION,Fare Payment,($2.10)
-8/20/2026 13:23,GTAFS Central System,,Epurse Load,$10.00 
-8/20/2026 13:31,Toronto Transit Commission,Weston Rd at St Phillips Rd,Fare Payment,($2.10)
-8/20/2026 17:19,Toronto Transit Commission,College St At Crawford St,Fare Payment,($2.10)
-8/20/2026 23:48,Toronto Transit Commission,Queen St West At Bathurst St,Fare Payment,($2.10)
-8/21/2026 3:28,Toronto Transit Commission,King St West At Shaw St,Fare Payment,($2.10)
-8/21/2026 13:49,Toronto Transit Commission,Jane St At Lawrence Ave West,Fare Payment,($2.10)
-8/21/2026 17:53,GTAFS Central System,,Epurse Load,$10.00 
-8/21/2026 18:01,Toronto Transit Commission,KEELE STATION,Fare Payment,($2.10)
-8/23/2026 19:02,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-8/23/2026 20:05,GO Transit,Mount Dennis GO Station Rail,Fare Payment,($0.17)
-8/24/2026 5:36,GTAFS Central System,,Epurse Load,$10.00 
-8/24/2026 5:49,Union Pearson Express,Weston Station,Fare Payment,($5.02)
-8/24/2026 6:32,GO Transit,Union Station Rail,Fare Payment,($3.70)
-8/24/2026 18:50,GO Transit,Exhibition GO Station Rail,Fare Payment,($3.70)
-8/24/2026 19:54,GO Transit,Mount Dennis GO Station Rail,Fare Payment,($0.17)
-8/25/2026 17:55,Toronto Transit Commission,EGLINTON STATION,Epurse Load,$5.00 
-8/25/2026 17:56,Toronto Transit Commission,EGLINTON STATION,Fare Payment,($2.10)
-8/25/2026 20:35,Toronto Transit Commission,1515 Albion Rd - Albion Library,Fare Payment,($2.10)
-8/26/2026 13:46,Toronto Transit Commission,Weston Rd at Little Ave,Fare Payment,($2.10)
-8/26/2026 17:08,GTAFS Central System,,Epurse Load,$2.00 
-8/26/2026 18:30,Toronto Transit Commission,SHEPPARD-YONGE STATION,Fare Payment,($2.10)
-8/27/2026 16:34,GTAFS Central System,,Epurse Load,$5.00 
-8/27/2026 16:44,Toronto Transit Commission,Weston Rd at Little Ave,Fare Payment,($2.10)
-8/29/2026 13:04,Toronto Transit Commission,Weston Rd at St Phillips Rd,Fare Payment,($2.10)
-8/29/2026 16:51,GTAFS Central System,,Epurse Load,$5.00 
-8/29/2026 16:53,Toronto Transit Commission,FOREST HILL,Fare Payment,($2.10)
+"4/11/2026 4:05:39 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"4/11/2026 4:55:41 PM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"4/15/2026 5:33:43 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"4/15/2026 6:06:12 PM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"4/18/2026 4:57:41 PM","GO Transit","Union Station Rail","Fare Payment","$-3.70"
+"4/20/2026 12:02:02 PM","Toronto Transit Commission","King St West At Shaw St","Fare Payment","$-3.30"
+"4/22/2026 4:53:28 PM","GO Transit","Union Station Rail","Epurse Load","$5.00"
+"4/22/2026 4:54:13 PM","GO Transit","Union Station Rail","Fare Payment","$-3.70"
+"4/22/2026 5:23:06 PM","GO Transit","Weston GO Station Rail","Tap Off Automatic","$-10.22"
+"4/25/2026 10:04:23 AM","GO Transit","Weston GO Station Rail","Epurse Load","$38.47"
+"4/25/2026 10:12:46 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"4/25/2026 11:18:22 AM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-1.06"
+"4/26/2026 10:38:32 AM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"4/26/2026 12:10:54 PM","GO Transit","Weston GO Station Rail","Tap Off Automatic","$-10.22"
+"4/27/2026 9:29:40 AM","GO Transit","","Epurse Load","$10.22"
+"4/28/2026 9:42:46 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"4/28/2026 10:04:35 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"4/28/2026 12:46:59 PM","Toronto Transit Commission","KING STATION","Fare Payment","$-3.30"
+"4/29/2026 11:43:07 AM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"4/30/2026 5:36:17 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"4/30/2026 6:11:55 PM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$3.30"
+"4/30/2026 7:43:56 PM","GO Transit","Union Station Rail","Fare Payment","$-3.70"
+"5/1/2026 1:13:55 PM","GO Transit","","Epurse Load","$26.49"
+"5/1/2026 3:30:23 PM","Toronto Transit Commission","Weston Rd At Oxford Dr","Fare Payment","$-3.30"
+"5/2/2026 11:06:28 AM","GO Transit","Weston GO Station Rail","Epurse Load","$40.00"
+"5/2/2026 11:07:06 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/3/2026 11:03:36 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/3/2026 11:43:06 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"5/6/2026 11:23:02 AM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"5/6/2026 2:00:39 PM","Toronto Transit Commission","MOUNT DENNIS","Fare Payment","$-2.10"
+"5/6/2026 5:33:13 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/6/2026 6:35:11 PM","GO Transit","Danforth GO Station Rail","Fare Payment","$-4.21"
+"5/7/2026 10:41:28 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/7/2026 11:08:06 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"5/8/2026 11:02:53 AM","Toronto Transit Commission","King St West At Shaw St","Fare Payment","$-2.10"
+"5/8/2026 1:35:31 PM","Toronto Transit Commission","FAIRBANK","Fare Payment","$-2.10"
+"5/11/2026 1:41:45 PM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"5/11/2026 4:28:40 PM","Toronto Transit Commission","MOUNT DENNIS","Fare Payment","$-2.10"
+"5/12/2026 10:56:25 AM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"5/12/2026 1:34:39 PM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-2.10"
+"5/13/2026 5:15:01 PM","GO Transit","Weston GO Station Rail","Epurse Load","$10.00"
+"5/13/2026 5:15:26 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/13/2026 6:05:23 PM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"5/13/2026 10:18:02 PM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"5/14/2026 12:21:03 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/14/2026 1:26:38 PM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-1.06"
+"5/15/2026 12:39:52 PM","GO Transit","Exhibition GO Station Rail","Epurse Load","$10.00"
+"5/15/2026 12:49:23 PM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"5/15/2026 1:58:33 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-1.06"
+"5/16/2026 10:52:28 AM","Toronto Transit Commission","MOUNT DENNIS","Fare Payment","$-2.10"
+"5/16/2026 2:24:57 PM","Toronto Transit Commission","MAIN STREET STATION","Fare Payment","$-2.10"
+"5/17/2026 11:28:53 AM","Toronto Transit Commission","0","Fare Payment","$-2.10"
+"5/18/2026 9:59:31 AM","GO Transit","Exhibition GO Station Rail","Epurse Load","$5.00"
+"5/18/2026 10:02:08 AM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"5/19/2026 1:54:16 PM","Toronto Transit Commission","Eglinton Ave West at Walkway to Rangoon","Fare Payment","$-2.10"
+"5/20/2026 6:33:48 PM","GO Transit","Exhibition GO Station Rail","Epurse Load","$5.00"
+"5/20/2026 6:34:04 PM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"5/20/2026 7:20:56 PM","GO Transit","Mount Dennis GO Station Rail","Fare Payment","$-0.17"
+"5/21/2026 7:01:21 PM","GO Transit","Exhibition GO Station Rail","Epurse Load","$5.00"
+"5/21/2026 7:01:41 PM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"5/21/2026 7:56:23 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-1.06"
+"5/22/2026 10:41:40 AM","GO Transit","Weston GO Station Rail","Epurse Load","$5.00"
+"5/22/2026 10:41:58 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/22/2026 11:39:45 AM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-1.06"
+"5/23/2026 9:20:37 PM","GO Transit","Exhibition GO Station Rail","Epurse Load","$5.00"
+"5/23/2026 9:32:59 PM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-2.10"
+"5/25/2026 3:13:12 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/25/2026 3:34:23 PM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"5/25/2026 10:03:32 PM","GO Transit","Exhibition GO Station Rail","Epurse Load","$5.00"
+"5/25/2026 10:03:44 PM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"5/25/2026 10:52:41 PM","GO Transit","Mount Dennis GO Station Rail","Fare Payment","$-0.17"
+"5/26/2026 7:05:17 PM","GO Transit","Weston GO Station Rail","Epurse Load","$10.00"
+"5/27/2026 9:07:24 AM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"5/27/2026 12:38:04 PM","Toronto Transit Commission","EGLINTON STATION","Fare Payment","$-2.10"
+"5/27/2026 3:20:50 PM","Toronto Transit Commission","MAIN STREET STATION","Fare Payment","$-2.10"
+"5/28/2026 5:40:44 AM","GO Transit","Weston GO Station Rail","Epurse Load","$5.00"
+"5/28/2026 5:42:28 AM","GO Transit","Weston GO Station Rail","Epurse Load","$1.90"
+"5/28/2026 5:42:47 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"5/28/2026 6:36:50 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"5/28/2026 6:35:26 PM","Toronto Transit Commission","SHERBOURNE STATION","Fare Payment","$-2.10"
+"5/28/2026 9:40:46 PM","Toronto Transit Commission","CHESTER STATION","Fare Payment","$-2.10"
+"5/29/2026 4:16:31 PM","GO Transit","Weston GO Station Rail","Epurse Load","$10.00"
+"5/29/2026 4:21:08 PM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"5/30/2026 7:01:58 AM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"5/31/2026 7:02:00 PM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"6/1/2026 6:13:51 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"6/1/2026 6:35:36 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"6/1/2026 6:55:07 PM","Toronto Transit Commission","WELLESLEY STATION","Epurse Load","$5.00"
+"6/1/2026 6:55:22 PM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"6/2/2026 5:54:12 AM","GO Transit","Weston GO Station Rail","Epurse Load","$5.00"
+"6/2/2026 6:08:29 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"6/2/2026 6:36:33 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"6/2/2026 7:02:41 PM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"6/3/2026 6:05:41 AM","GO Transit","Weston GO Station Rail","Epurse Load","$2.00"
+"6/3/2026 6:06:03 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"6/3/2026 6:33:58 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"6/4/2026 10:10:29 AM","GO Transit","Weston GO Station Rail","Epurse Load","$20.00"
+"6/4/2026 10:22:07 AM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"6/4/2026 1:07:15 PM","Toronto Transit Commission","MAIN STREET STATION","Fare Payment","$-2.10"
+"6/4/2026 3:30:22 PM","Toronto Transit Commission","EGLINTON STATION","Fare Payment","$-2.10"
+"6/4/2026 5:54:36 PM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"6/6/2026 10:48:59 AM","Toronto Transit Commission","Keele Station","Fare Payment","$-2.10"
+"6/6/2026 11:37:33 AM","Toronto Transit Commission","King St West at Simcoe St - St. Andrew ","Fare Payment","$2.10"
+"6/6/2026 7:44:47 PM","Toronto Transit Commission","Dufferin St At Dundas St West","Fare Payment","$-2.10"
+"6/7/2026 11:26:22 AM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"6/7/2026 9:33:31 PM","Toronto Transit Commission","Broadview Station","Fare Payment","$-2.10"
+"6/8/2026 4:44:14 AM","GTAFS Central System","","Epurse Load","$3.00"
+"6/8/2026 4:46:25 AM","Toronto Transit Commission","Weston Rd at St Phillips Rd","Fare Payment","$-2.10"
+"6/8/2026 6:11:20 PM","GTAFS Central System","","Epurse Load","$2.00"
+"6/8/2026 7:19:03 PM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"6/9/2026 1:52:57 PM","GTAFS Central System","","Epurse Load","$1.00"
+"6/9/2026 2:17:41 PM","Toronto Transit Commission","King St West At Shaw St","Fare Payment","$-2.10"
+"6/10/2026 3:11:27 PM","GTAFS Central System","","Epurse Load","$4.20"
+"6/10/2026 3:21:46 PM","Toronto Transit Commission","WILSON STATION","Fare Payment","$-2.10"
+"6/11/2026 10:05:28 AM","Toronto Transit Commission","Weston Rd At Jane St","Fare Payment","$-2.10"
+"6/12/2026 12:52:58 AM","GTAFS Central System","","Epurse Load","$20.00"
+"6/12/2026 12:54:16 AM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-2.10"
+"6/13/2026 12:44:18 PM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"6/13/2026 1:09:51 PM","GO Transit","Union Station Rail","Fare Payment","$-3.70"
+"6/14/2026 11:07:18 AM","Toronto Transit Commission","0","Fare Payment","$-2.10"
+"6/14/2026 12:34:53 PM","GO Transit","Union Station Rail","Fare Payment","$-1.94"
+"6/14/2026 1:06:45 PM","GO Transit","Mount Dennis GO Station Rail","Fare Payment","$0.17"
+"6/15/2026 5:58:36 AM","GTAFS Central System","","Epurse Load","$5.00"
+"6/15/2026 6:02:10 AM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"6/15/2026 6:26:49 AM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"6/15/2026 8:18:02 PM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-2.10"
+"6/16/2026 6:07:14 AM","GO Transit","Weston GO Station Rail","Epurse Load","$10.00"
+"6/16/2026 6:07:29 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"6/16/2026 6:36:53 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"6/16/2026 8:11:24 PM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-2.10"
+"6/19/2026 6:43:24 PM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"6/20/2026 9:58:53 AM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"6/21/2026 3:42:19 PM","GTAFS Central System","","Epurse Load","$5.98"
+"6/21/2026 3:48:35 PM","Toronto Transit Commission","King St West At Joe Shuster Way","Fare Payment","$-2.10"
+"6/22/2026 10:39:47 AM","GTAFS Central System","","Epurse Load","$10.00"
+"6/22/2026 10:40:15 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"6/22/2026 11:08:13 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"6/22/2026 6:27:21 PM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-2.10"
+"6/23/2026 12:01:33 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"6/23/2026 3:30:56 PM","Toronto Transit Commission","HIGH PARK STATION","Fare Payment","$-2.10"
+"6/24/2026 10:37:51 AM","GTAFS Central System","","Epurse Load","$5.00"
+"6/24/2026 10:57:44 AM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"6/25/2026 4:47:35 PM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"6/25/2026 7:39:47 PM","Toronto Transit Commission","DAVISVILLE STATION","Epurse Load","$5.00"
+"6/25/2026 7:40:13 PM","Toronto Transit Commission","DAVISVILLE STATION","Fare Payment","$-2.10"
+"6/28/2026 11:07:53 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"6/28/2026 11:12:56 AM","GTAFS Central System","","Epurse Load","$3.62"
+"6/28/2026 11:35:49 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"6/30/2026 5:23:06 AM","GTAFS Central System","","Epurse Load","$10.00"
+"6/30/2026 6:03:43 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"6/30/2026 6:38:30 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"6/30/2026 7:02:36 PM","Toronto Transit Commission","KING STATION","Fare Payment","$-2.10"
+"7/4/2026 8:44:55 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"7/4/2026 9:47:43 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"7/4/2026 3:53:00 PM","Toronto Transit Commission","Bathurst St At King St West","Fare Payment","$-2.10"
+"7/5/2026 5:04:40 PM","GTAFS Central System","","Epurse Load","$10.00"
+"7/5/2026 5:09:01 PM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-2.10"
+"7/7/2026 6:09:19 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"7/7/2026 6:37:16 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"7/7/2026 6:40:01 PM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"7/8/2026 5:05:17 AM","GTAFS Central System","","Epurse Load","$9.37"
+"7/8/2026 5:51:55 AM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"7/8/2026 6:14:34 AM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"7/8/2026 6:39:49 PM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"7/9/2026 5:12:10 AM","GTAFS Central System","","Epurse Load","$10.00"
+"7/9/2026 5:52:06 AM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"7/9/2026 6:15:32 AM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"7/9/2026 6:48:50 PM","Toronto Transit Commission","WELLESLEY STATION","Fare Payment","$-2.10"
+"7/10/2026 5:15:17 AM","GTAFS Central System","","Epurse Load","$7.91"
+"7/10/2026 5:51:02 AM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"7/10/2026 6:14:46 AM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"7/10/2026 6:01:38 PM","GTAFS Central System","","Epurse Load","$10.00"
+"7/10/2026 6:21:23 PM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"7/11/2026 8:48:47 AM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"7/14/2026 5:58:56 AM","GTAFS Central System","","Epurse Load","$10.00"
+"7/14/2026 6:00:06 AM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"7/14/2026 6:27:44 AM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"7/14/2026 7:06:56 PM","Toronto Transit Commission","MUSEUM STATION","Fare Payment","$-2.10"
+"7/15/2026 6:09:30 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"7/15/2026 6:35:32 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"7/15/2026 6:59:49 PM","GTAFS Central System","","Epurse Load","$10.00"
+"7/15/2026 6:59:59 PM","Toronto Transit Commission","MUSEUM STATION","Fare Payment","$-2.10"
+"7/16/2026 6:03:23 AM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"7/16/2026 6:28:58 AM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"7/16/2026 5:36:20 PM","Toronto Transit Commission","MUSEUM STATION","Fare Payment","$-2.10"
+"7/22/2026 2:32:21 PM","GTAFS Central System","","Epurse Load","$10.00"
+"7/22/2026 3:06:17 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"7/22/2026 3:37:26 PM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"7/22/2026 6:43:26 PM","Toronto Transit Commission","EGLINTON STATION","Fare Payment","$-2.10"
+"7/29/2026 6:01:21 AM","GO Transit","Exhibition GO Station Rail","Epurse Load","$5.00"
+"7/30/2026 10:27:29 AM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-3.30"
+"7/30/2026 10:49:49 AM","GTAFS Central System","","Epurse Load","$4.00"
+"7/30/2026 5:05:25 PM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"7/30/2026 7:28:26 PM","Toronto Transit Commission","King St West At Atlantic Ave","Fare Payment","$-2.10"
+"7/31/2026 1:29:20 AM","Toronto Transit Commission","King St West At Shaw St","Fare Payment","$-2.10"
+"7/31/2026 5:58:51 AM","GTAFS Central System","","Epurse Load","$10.00"
+"7/31/2026 5:59:25 AM","Toronto Transit Commission","DUNDAS WEST STATION","Fare Payment","$-2.10"
+"8/3/2026 3:55:54 PM","Toronto Transit Commission","MOUNT DENNIS","Fare Payment","$-2.10"
+"8/4/2026 2:52:41 PM","Toronto Transit Commission","MOUNT DENNIS","Fare Payment","$-2.10"
+"8/4/2026 7:39:41 PM","Toronto Transit Commission","EGLINTON STATION","Fare Payment","$-2.10"
+"8/5/2026 11:23:24 AM","GTAFS Central System","","Epurse Load","$10.00"
+"8/5/2026 11:23:59 AM","Toronto Transit Commission","MOUNT DENNIS","Fare Payment","$-2.10"
+"8/5/2026 5:04:58 PM","Toronto Transit Commission","QUEEN STATION","Fare Payment","$-2.10"
+"8/5/2026 7:38:14 PM","Toronto Transit Commission","ST CLAIR WEST STATION","Fare Payment","$-2.10"
+"8/6/2026 2:09:11 PM","Toronto Transit Commission","LAIRD","Fare Payment","$-2.10"
+"8/7/2026 11:57:33 AM","Toronto Transit Commission","Weston Rd At Knob Hill Dr","Fare Payment","$-2.10"
+"8/7/2026 10:54:09 PM","GTAFS Central System","","Epurse Load","$10.00"
+"8/7/2026 11:04:50 PM","Toronto Transit Commission","Wilson Ave at Julian Rd West Side - Hum","Fare Payment","$-2.10"
+"8/8/2026 2:41:21 PM","Toronto Transit Commission","0","Fare Payment","$-2.10"
+"8/8/2026 7:35:42 PM","Toronto Transit Commission","King St West At Shaw St","Fare Payment","$-2.10"
+"8/9/2026 9:54:05 AM","Toronto Transit Commission","Weston Rd at St Phillips Rd","Fare Payment","$-2.10"
+"8/9/2026 1:07:19 PM","Toronto Transit Commission","East Liberty St At Lynn Williams St","Fare Payment","$-2.10"
+"8/9/2026 5:40:36 PM","GTAFS Central System","","Epurse Load","$10.00"
+"8/9/2026 6:27:19 PM","Toronto Transit Commission","Queen St East At Jones Ave","Fare Payment","$-2.10"
+"8/9/2026 8:35:22 PM","Toronto Transit Commission","EGLINTON STATION","Fare Payment","$-2.10"
+"8/10/2026 11:55:33 AM","GO Transit","Weston GO Station Rail","Tap Off Automatic","$-11.23"
+"8/10/2026 6:06:37 PM","GO Transit","","Epurse Load","$10.17"
+"8/10/2026 6:29:40 PM","GTAFS Central System","","Epurse Load","$10.00"
+"8/10/2026 6:30:33 PM","GO Transit","Union Station Rail","Fare Payment","$-3.70"
+"8/10/2026 6:50:57 PM","GO Transit","Mount Dennis GO Station Rail","Fare Payment","$-0.17"
+"8/11/2026 6:52:12 PM","Toronto Transit Commission","Weston Rd At Bradstock Rd","Fare Payment","$-2.10"
+"8/12/2026 9:11:05 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"8/12/2026 9:26:02 AM","GTAFS Central System","","Epurse Load","$10.00"
+"8/12/2026 9:56:58 AM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-1.06"
+"8/13/2026 2:41:58 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"8/14/2026 12:48:14 AM","Toronto Transit Commission","Liberty St At Atlantic Ave","Fare Payment","$-2.10"
+"8/17/2026 2:19:50 PM","Toronto Transit Commission","Lawrence Ave West at Weston Rd East Sid","Fare Payment","$-2.10"
+"8/17/2026 8:16:52 PM","Toronto Transit Commission","MOUNT PLEASANT","Fare Payment","$-2.10"
+"8/18/2026 6:20:46 AM","GTAFS Central System","","Epurse Load","$9.01"
+"8/18/2026 8:57:49 AM","Toronto Transit Commission","Weston Rd At Knob Hill Dr","Fare Payment","$-2.10"
+"8/18/2026 12:51:45 PM","Toronto Transit Commission","Wilson Ave At Keele St","Fare Payment","$-2.10"
+"8/18/2026 4:19:23 PM","GTAFS Central System","","Epurse Load","$5.00"
+"8/18/2026 4:19:53 PM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"8/18/2026 4:53:48 PM","Toronto Transit Commission","King St West at Simcoe St - St. Andrew ","Fare Payment","$-2.10"
+"8/18/2026 11:02:40 PM","GTAFS Central System","","Epurse Load","$5.00"
+"8/18/2026 11:05:29 PM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"8/18/2026 11:50:49 PM","GO Transit","Mount Dennis GO Station Rail","Fare Payment","$-0.17"
+"8/19/2026 4:09:31 PM","Toronto Transit Commission","MOUNT DENNIS","Fare Payment","$-2.10"
+"8/19/2026 6:29:47 PM","Toronto Transit Commission","DAVISVILLE STATION","Fare Payment","$-2.10"
+"8/20/2026 1:23:31 PM","GTAFS Central System","","Epurse Load","$10.00"
+"8/20/2026 1:31:01 PM","Toronto Transit Commission","Weston Rd at St Phillips Rd","Fare Payment","$-2.10"
+"8/20/2026 5:19:57 PM","Toronto Transit Commission","College St At Crawford St","Fare Payment","$-2.10"
+"8/20/2026 11:48:31 PM","Toronto Transit Commission","Queen St West At Bathurst St","Fare Payment","$-2.10"
+"8/21/2026 3:28:15 AM","Toronto Transit Commission","King St West At Shaw St","Fare Payment","$-2.10"
+"8/21/2026 1:49:38 PM","Toronto Transit Commission","Jane St At Lawrence Ave West","Fare Payment","$-2.10"
+"8/21/2026 5:53:58 PM","GTAFS Central System","","Epurse Load","$10.00"
+"8/21/2026 6:01:22 PM","Toronto Transit Commission","KEELE STATION","Fare Payment","$-2.10"
+"8/23/2026 7:02:30 PM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"8/23/2026 8:05:16 PM","GO Transit","Mount Dennis GO Station Rail","Fare Payment","$-0.17"
+"8/24/2026 5:36:27 AM","GTAFS Central System","","Epurse Load","$10.00"
+"8/24/2026 5:49:53 AM","Union Pearson Express","Weston Station","Fare Payment","$-5.02"
+"8/24/2026 6:32:29 AM","GO Transit","Union Station Rail","Fare Payment","$-3.70"
+"8/24/2026 6:50:53 PM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-3.70"
+"8/24/2026 7:54:46 PM","GO Transit","Mount Dennis GO Station Rail","Fare Payment","$-0.17"
+"8/25/2026 5:55:48 PM","Toronto Transit Commission","EGLINTON STATION","Epurse Load","$5.00"
+"8/25/2026 5:56:08 PM","Toronto Transit Commission","EGLINTON STATION","Fare Payment","$-2.10"
+"8/25/2026 8:35:16 PM","Toronto Transit Commission","1515 Albion Rd - Albion Library","Fare Payment","$-2.10"
+"8/26/2026 1:46:02 PM","Toronto Transit Commission","Weston Rd at Little Ave","Fare Payment","$-2.10"
+"8/26/2026 5:08:14 PM","GTAFS Central System","","Epurse Load","$2.00"
+"8/26/2026 6:30:30 PM","Toronto Transit Commission","SHEPPARD-YONGE STATION","Fare Payment","$-2.10"
+"8/27/2026 4:34:55 PM","GTAFS Central System","","Epurse Load","$5.00"
+"8/27/2026 4:44:12 PM","Toronto Transit Commission","Weston Rd at Little Ave","Fare Payment","$-2.10"
+"8/29/2026 1:04:58 PM","Toronto Transit Commission","Weston Rd at St Phillips Rd","Fare Payment","$-2.10"
+"8/29/2026 4:51:46 PM","GTAFS Central System","","Epurse Load","$5.00"
+"8/29/2026 4:53:53 PM","Toronto Transit Commission","FOREST HILL","Fare Payment","$-2.10"
+"8/31/2026 5:14:10 PM","Toronto Transit Commission","Weston Rd at St Phillips Rd","Fare Payment","$-2.10"
+"8/31/2026 8:20:36 PM","GTAFS Central System","","Epurse Load","$5.00"
+"8/31/2026 8:21:59 PM","Toronto Transit Commission","BLOOR-YONGE STATION","Fare Payment","$-2.10"
+"9/1/2026 7:52:31 PM","GTAFS Central System","","Epurse Load","$10.00"
+"9/1/2026 8:01:33 PM","GO Transit","Hamilton - HamiltonGOCentre At HunterSt","Fare Payment","$-3.70"
+"9/1/2026 9:07:05 PM","GO Transit","Miss.- Renforth Transitway Station At","Fare Payment","$-6.61"
+"9/2/2026 11:11:02 AM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"9/3/2026 6:12:45 PM","Toronto Transit Commission","Weston Rd at Little Ave","Fare Payment","$-2.10"
+"9/3/2026 6:44:23 PM","GTAFS Central System","","Epurse Load","$2.00"
+"9/3/2026 11:43:08 PM","Toronto Transit Commission","0","Fare Payment","$-2.10"
+"9/3/2026 11:57:17 PM","Toronto Transit Commission","ST ANDREW STATION","Fare Payment","$2.10"
+"9/4/2026 8:50:54 AM","GTAFS Central System","","Epurse Load","$10.00"
+"9/4/2026 9:02:21 AM","Toronto Transit Commission","Lawrence Ave West at Ralph St - Weston ","Fare Payment","$-2.10"
+"9/4/2026 11:23:04 AM","Toronto Transit Commission","0","Fare Payment","$-2.10"
+"9/4/2026 1:38:22 PM","Toronto Transit Commission","EGLINTON STATION","Fare Payment","$-2.10"
+"9/9/2026 2:54:24 PM","Toronto Transit Commission","Weston Rd at Lawrence Ave West","Fare Payment","$-2.10"
+"9/9/2026 5:11:16 PM","GTAFS Central System","","Epurse Load","$5.00"
+"9/9/2026 7:11:51 PM","Toronto Transit Commission","Union Station - Northbound Platform Tow","Fare Payment","$-2.10"
+"9/10/2026 1:14:13 PM","Toronto Transit Commission","Weston Rd At Church St South Side","Fare Payment","$-2.10"
+"9/10/2026 5:18:09 PM","Toronto Transit Commission","Dufferin St At St Clair Ave West","Fare Payment","$-2.10"
+"9/10/2026 7:55:44 PM","GTAFS Central System","","Epurse Load","$6.00"
+"9/10/2026 7:56:00 PM","Toronto Transit Commission","MOUNT DENNIS","Fare Payment","$-2.10"
+"9/11/2026 2:43:40 PM","Toronto Transit Commission","Weston Rd At Clouston Ave","Fare Payment","$-2.10"
+"9/11/2026 5:02:44 PM","Toronto Transit Commission","EGLINTON STATION","Fare Payment","$-2.10"
+"9/14/2026 3:56:42 PM","GO Transit","Weston GO Station Rail","Epurse Load","$5.00"
+"9/14/2026 3:56:55 PM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"9/14/2026 4:38:06 PM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"9/14/2026 4:40:24 PM","GO Transit","Union Station Rail","Epurse Load","$3.10"
+"9/14/2026 10:32:35 PM","Toronto Transit Commission","0","Fare Payment","$-2.10"
+"9/16/2026 6:06:05 AM","GO Transit","Weston GO Station Rail","Epurse Load","$5.00"
+"9/16/2026 6:06:28 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"9/16/2026 6:34:33 AM","GO Transit","Union Station Rail","Fare Payment","$-1.06"
+"9/16/2026 5:46:01 PM","Toronto Transit Commission","CASTLE FRANK STATION","Epurse Load","$5.00"
+"9/16/2026 5:46:16 PM","Toronto Transit Commission","CASTLE FRANK STATION","Fare Payment","$-2.10"
+"9/17/2026 1:44:54 PM","Toronto Transit Commission","Lawrence Ave West at Weston Rd East Sid","Fare Payment","$-2.10"
+"9/17/2026 5:16:43 PM","Toronto Transit Commission","BLOOR-YONGE STATION","Fare Payment","$-2.10"
+"9/18/2026 11:01:05 AM","GO Transit","Weston GO Station Rail","Epurse Load","$3.20"
+"9/18/2026 11:01:48 AM","GO Transit","Weston GO Station Rail","Epurse Load","$5.00"
+"9/18/2026 11:02:29 AM","GO Transit","Weston GO Station Rail","Fare Payment","$-3.70"
+"9/18/2026 11:54:26 AM","GO Transit","Exhibition GO Station Rail","Fare Payment","$-1.06"
