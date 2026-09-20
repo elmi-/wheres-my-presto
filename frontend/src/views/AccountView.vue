@@ -146,7 +146,7 @@ async function syncNow() {
       <div v-else-if="link" class="presto-link">
         <h3>Presto Account</h3>
         <p>Status: <strong>{{ STATUS_LABELS[link.status] || link.status }}</strong></p>
-        <p>Linked username: {{ link.prestoUsername }}</p>
+        <p>Linked account: {{ link.prestoUsername }}</p>
 
         <div v-if="link.lastLocation" class="last-location">
           <p>Last known location: <strong>{{ link.lastLocation.name }}</strong></p>
@@ -169,8 +169,8 @@ async function syncNow() {
           stored credential.
         </p>
         <label>
-          Presto username
-          <input v-model="prestoUsername" required />
+          Presto account email
+          <input v-model="prestoUsername" type="email" required />
         </label>
         <label>
           Presto password
